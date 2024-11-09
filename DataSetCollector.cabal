@@ -74,7 +74,9 @@ executable DataSetCollector
                       tagsoup ^>=0.14.8,
                       directory,
                       time,
-                      text 
+                      text,
+                      ansi-terminal,
+                      async
 
     -- Directories containing source files.
     hs-source-dirs:   app
